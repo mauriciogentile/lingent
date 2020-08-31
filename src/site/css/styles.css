@@ -10124,6 +10124,10 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
+  #mainNav.navbar-shrink #logo {
+    height: 50px !important;
+    image-orientation: flip;
+  }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
     height: 1.5rem;
